@@ -1,0 +1,18 @@
+[package]
+name = "os_01"
+version = "0.1.0"
+edition = "2021"
+authors = ["Rust OS Learner"]
+
+[dependencies]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+[[bin]]
+name = "os_01"
+test = false
+bench = false
