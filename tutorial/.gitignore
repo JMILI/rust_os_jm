@@ -1,0 +1,13 @@
+# mdbook 构建输出
+book/
+
+# 临时文件
+*.tmp
+*.bak
+*~
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo

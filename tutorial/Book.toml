@@ -1,0 +1,40 @@
+[book]
+title = "Writing an OS in Rust - 中文教程"
+description = "基于 os.phil-opp.com 的 Rust 操作系统开发中文教程"
+authors = ["Rust OS 学习小组"]
+language = "zh-CN"
+multilingual = false
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = true
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/phil-opp/blog_os"
+edit-url-template = "https://github.com/phil-opp/blog_os/edit/main/{path}"
+mathjax-support = true
+search = { limit-results = 30, teaser-word-count = 30, use-boolean-and = true, boost-title = 2, boost-hierarchy = 1, boost-paragraph = 1, expand = true, heading-split-level = 3, copy-button = true, heading-level = 3 }
+
+[output.html.playground]
+editable = false
+copyable = true
+copyable-method = "copy"
+
+[preprocessor.test]
+enabled = false
+
+[output.html.footer]
+content = """
+<p>
+  本教程基于 <a href="https://os.phil-opp.com/">os.phil-opp.com</a> 官方文档翻译和整理<br/>
+  原作者：<a href="https://github.com/phil-opp">Philipp Oppermann</a><br/>
+  项目仓库：<a href="https://github.com/phil-opp/blog_os">phil-opp/blog_os</a>
+</p>
+"""
+
+[preprocessor.links]
+
+[preprocessor.index]
